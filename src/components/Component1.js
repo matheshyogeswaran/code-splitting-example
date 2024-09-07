@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-export default function Component2() {
-  
+export default function Component1() {
   const numbers = Array.from({ length: 1000 }, (_, i) => i + 1);
 
   return (
     <div>
+      <h1>Component1</h1>
       <h1>Numbers from 1 to 1000</h1>
       <ul>
         {numbers.map(number => (
